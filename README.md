@@ -4,30 +4,42 @@ Proyek ini sangat cocok bagi kamu yang ingin belajar pengembangan aplikasi web d
 
 Fitur 🔥
 Create: Menambahkan data baru ke dalam database.
+
 Read: Menampilkan data yang telah tersimpan.
+
 Update: Mengedit data yang sudah ada.
+
 Delete: Menghapus data yang tidak diperlukan.
+
 Semua fitur ini bisa kamu gunakan dengan mudah dan implementasikan ke dalam proyek PHP kamu. ✨
 
 Teknologi 🛠
 PHP: Untuk sisi backend.
+
 MySQL: Untuk penyimpanan data.
+
 HTML & CSS: Untuk tampilan antarmuka yang simpel dan responsif.
 
 Struktur Proyek 📁
+
 web-dev-crud-with-php/
-├── asset/
-│   ├── css/         # Folder untuk file CSS
-│   └── js/          # Folder untuk file JavaScript
-├── data_donasi.php  # Menampilkan data donasi
-├── hapus_donasi.php # Menghapus data donasi
-├── index.html       # Halaman utama
-├── index.php        # Halaman utama PHP
-├── koneksi.php      # Koneksi ke database MySQL
-├── login.php        # Halaman login
-├── logout.php       # Halaman logout
-├── tambah_donasi.php # Menambahkan data donasi
-└── ubah_donasi.php  # Mengubah data donasi
+├── assets/
+│   ├── css/               # Folder untuk file CSS
+│   └── js/                # Folder untuk file JavaScript
+├── includes/
+│   ├── koneksi.php        # Koneksi ke database MySQL
+│   └── header.php         # File header (opsional, jika menggunakan template)
+├── pages/
+│   ├── data_donasi.php    # Menampilkan data donasi
+│   ├── hapus_donasi.php   # Menghapus data donasi
+│   ├── login.php          # Halaman login
+│   ├── logout.php         # Halaman logout
+│   ├── tambah_donasi.php # Menambahkan data donasi
+│   └── ubah_donasi.php    # Mengubah data donasi
+├── index.php              # Halaman utama PHP (mengarah ke data_donasi.php atau halaman lainnya)
+├── index.html             # Halaman utama dalam format HTML
+└── .gitignore             # Menyaring file yang tidak perlu dimasukkan ke repositori Git
+
 
 Cara Menjalankan 💻
 1. Clone repositori ini ke komputer kamu:
